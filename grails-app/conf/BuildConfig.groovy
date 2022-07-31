@@ -58,6 +58,7 @@ grails.project.dependency.resolution = {
         build ":tomcat:9.0.0.M4.1"
 
         // plugins for the compile step
+        compile ':spring-security-core:2.0.0'
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
         // asset-pipeline 2.0+ requires Java 7, use version 1.9.x with Java 6
